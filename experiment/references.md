@@ -1,13 +1,11 @@
 ## References
 #### Books
-- B.Wayane Bequette, Process Dynamics Modeling,Analysis and Simulation, Prentice Hall PIR, New Jersey (1998).
-- Donald R.Coughnowr,Process System Analysis and Control, McGraw-Hill,Inc,International Edition (1991).
-- George Stephanopoulos, Chemical Process Control, Prentice Hall of India Private Ltd, New Delhi (1990).
-- William L.Luyben, Process Modeling Simulation and Control For Chemical Engineers, McGraw-Hill International Editions (1990).
+- Amiya K. Jana, "Chemical Process Modelling and Computer Simulation", Prentice-Hall of India Private Limited, New Delhi (2008).
+- Binay K.Dutta, "Principles of Mass Transfer and Separation Processes", Prentice-Hall of India Private Limited, New Delhi (2007).
+- Robert E. Treybal," Mass Transfer Operation", McGraw-Hill Book Company (1981).
+- W.L.Luyben," Process Modelling, Simulation, and Control for Chemical engineers", McGraw-Hill Publishing Company, Singapore (1981).
+- Warren L.McCabe,Julian C. Smith,Peter Harriot, "Unit Operation of Chemical Engineering", McGraw-Hill Companies, New York, International Edition(2005).
 
-#### Lecture Notes
-- [Example of Modeling a Stirred Tank Heater](http://nptel.ac.in/courses/103103037/3)
-#### Lecture Notes
-- [Process Control and Instrumentation](http://nptel.ac.in/courses/103105064/)
+
 
 
