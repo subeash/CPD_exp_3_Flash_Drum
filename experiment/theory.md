@@ -18,23 +18,23 @@ Figure.1 is the phase-equilibrium diagram for a binary mixture system where x, y
 $$P_A** = x_AP_A$$
 $$P_B** = x_BP_B$$
 <br>where,
-$$P_A**, P_B**$$ = Partial pressure of component A and B
-$$x_A, x_B$$ = Mole fraction of component A and B in the liquid phase
-$$P_A, P_B$$ = Vapour pressures of component A and B at system temperature
+$$P_A**, P_B** = Partial \ pressure \ of \ component \ A\  and\  B$$
+$$x_A, x_B = Mole\  fraction\  of\  component\  A\  and\  B\  in\  the\  liquid\  phase$$
+$$P_A, P_B = Vapour \ pressures\  of \ component\  A\  and\  B\  at\  system\  temperature$$
 <br>Also,
 $$P_A**= y_AP$$
 $$P_B**= y_BP$$
-<br>Where $$y_A, y_B$$ = Mole fraction of component A and B in the vapour phase
+<br>$$Where\ y_A, y_B = Mole\  fraction\  of\  component\  A\  and\  B\  in\  the\  vapour\  phase$$
 <br>P = Total pressure</p>
 According to Dalton's law the total pressure is equal to the sum of the partial pressures. Therefore,
 $$P =P_A**+P_B**$$
 $$x_AP_A+x_BP_B$$
 The vapour pressure of pure components can be obtained either from charts or the use of equation. Antoine equation given below is widely used for this. This is given below
 In $$P_i= A_i - B_i// C_i + T$$
-Where $$A_i, B_i and C_i$$ are constant for component i.
+$$Where\ A_i, B_i \ and\  C_i \ are\  constant\  for\  component\  i.$$
 **RELATIVE VOLATILITY :** Relative volatility is the concentration ratio of A to B in the vapour phase divided by the same ratio in the liquid phase. Relative volatility is usually denoted as α. For binary mixture
 α = y/(1-y) / x(1-x)
-$$P_A// P_B$$ (Ratio of vapour pressure of A and B)
+$$P_A/ P_B\  (Ratio \ of\  vapour \ pressure\  of \ A\  and\  B)$$
 α is a dimensionless quantity. When α = 1, the separation would be impossible under the given condition because the composition of the liquid and the vapour phase are the same (azeotrope).When α > 1, separation by distillation becomes progressively easier.
 **DIFFERENT WAYS OF FLASH DISTILLATION :** The separation of a feed mixture in a flash drum can be carried out by two different ways (Luyben, 1990), and they are described as follows
 The temperature of the liquid feed is increased to a certain temperature which lies between the bubble point temperature and the dew point temperature of that feed at a specified constant pressure,
@@ -51,18 +51,18 @@ The isothermal flash is commonly used in the single stage separation process.The
 <img src="images/convection.jpg"  style="width:500px;height:400px;"/>
 
 ###Equilibrium relationship
-$$y_(Fi)=K_(Fi)x_(Fi)$$ ( i= 1,2,.....C)
+$$y_{Fi}=K_{Fi} x_{Fi}\  ( i= 1,2,.....C)$$
 $$sum_(i=1)^c y_(Fi)=1$$
 $$sum_(i=1)^c x_(Fi)=1$$
 Material balances:
 $$FZ_(Fi) = V_Fy_(Fi) + L_(F)x_(Fi)$$
-Where,$$K_(Fi)$$ represents the equilibrium coefficient of component i, $$y_Fi$$ and $$x_Fi$$ are the composition of component i in the produced vapour and liquid streams.
-$$Z_(Fi)$$ the feed composition of component i, $$L_F$$ and $$V_F$$ the flow rates of liquid and vapour streams. Equation 13 can be extended to:
+$$Where,\ K_{Fi}\  represents\  the\  equilibrium\  coefficient\  of\  component\  i,\ y_{Fi}\  and \ x_{Fi}\  are \ the\  composition\  of\  component\  i \ in\  the\  produced\  vapour\  and\  liquid\  streams.\ 
+Z_{Fi}\  the \ feed\  composition\  of\  component\  i,\ L_F \ and\  V_F \ the\  flow \ rates\  of\  liquid \ and \ vapour \ streams.\  Equation\  13\  can \ be\  extended\  to:\ $$
 $$Fsum_(i=1)^c Z_(Fi)=V_Fsum_(i=1)^c y_(Fi)+L_Fsum_(i=1)^c x_(Fi)$$
 $$F=V_F+L_F$$
 $$x_(Fi)=Z_(Fi)/(L_F/F+V_FK_(Fi)/F)$$
 $$x_(Fi)=Z_(Fi)/((1-V_F/F)+V_FK_(Fi)/F)$$
-$$x_(Fi)=Z_(Fi)/(1-theta(1-K_(Fi)))$$ &nbsp Where $$theta=V_F/F$$
+$$x_{Fi}=\frac {Z_{Fi}}{(1-\theta(1-K_{Fi})}\  Where \ \theta=V_F/F$$
 Now, we consider,
-$$f(theta)=sum_(i=1)^cZ_(Fi)/[[1-theta(1-K_(Fi))]]-1$$
+$$f(\theta)=\sum_{i=1}^c \frac{Z_{Fi}}{[1-\theta(1-K_{Fi})]}-1$$
 Positive value of θ means the vaporisation occurs, whereas zero value indicatesno vaporisation.
