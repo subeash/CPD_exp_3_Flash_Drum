@@ -22,7 +22,7 @@
       "question": "Relative volatility, α is given by",
       "answers": {
         "a": "α=y(1-x)/(1-y)x",
-        "b": "α=yx/(1-y)(1-x),
+        "b": "α=yx/(1-y)(1-x)",
         "c": "α=y(1-y)/x(1-x)",
         "d": "α=x(1-x)/y(1-y)"
       },
