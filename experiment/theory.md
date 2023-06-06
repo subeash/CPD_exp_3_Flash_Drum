@@ -9,7 +9,7 @@ The most elementary form of simple distillation is Flash Distillation, in which 
 ### VAPOUR-LIQUID EQUILIBRIUM (VLE)
 Separation of a mixture by distillation is based on the equilibrium distribution of the components between the liquid phase and the vapour phase. Knowledge of vapour-liquid equilibrium is therefore essential for understanding the principles of distillation. A phase equilibrium diagram is essential for the relationship between the mole fraction of a component in the vapour and liquid phases. The equilibrium is defined for varying temperatures at constant pressure or varying pressure at constant temperature.
  
-<img src="images/convection.jpg"  style="width:500px;height:400px;"/>
+<img src="images/vapur_liquid.jpg"  style="width:500px;height:400px;"/>
 				
 Figure.1 is the phase-equilibrium diagram for a binary mixture system where x, y refers to the mole fraction of the more volatile component in the liquid phase and vapour phase respectively. The temperature raised to its boiling point and is plotted with respect to the liquid composition x, then we get the "bubble point curve" and if we plot it again with respect to the vapour composition y then we get the "dew point curve". In the diagram P represents the sub-cooled liquid which is heated at constant pressure to point Q, where the first bubble of vapour appears. The vapour appeared has the composition, represented by point R which is significantly rich with the less volatile component than in the initial state. The heating process is continued beyond point Q where the temperature rises causing the amount of vapour to increase and the amount of liquid to decrease. During this process, compositions of vapour and liquid phases change as indicated by paths RN and QM until the dew point is reached at point N,where the last droplet of liquid disappear. The line TB-M-Q-TA in the figure.1 is the bubble point curve and TB-N-R-TA is the dew point curve.
                            
@@ -69,7 +69,7 @@ The partial vaporisation of a multicomponent feed mixture is commonly conducted 
 
 The isothermal flash is commonly used in the single stage separation process.The flash temperature TF and pressure P. The total flow rate F and composition(xi) of the feed. The name given as isothermal flash because the temperature of the contents in the flash drum as well as the vapour and liquid streams formed by the flash are the same temperature. The flash temperature may not be equal to the feed temperature prior to its flashing. An isothermal flash process can be mathematically described by the independent equation required to describe by the following equation.
 
-<img src="images/convection.jpg"  style="width:500px;height:400px;"/>
+<img src="images/schematic_diagram.jpg"  style="width:500px;height:400px;"/>
 
 ### Equilibrium relationship
 $$y_{Fi}=K_{Fi} x_{Fi}\  ( i= 1,2,.....C)$$
