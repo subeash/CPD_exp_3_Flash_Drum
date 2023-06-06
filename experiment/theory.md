@@ -56,12 +56,14 @@ $$sum_(i=1)^c y_(Fi)=1$$
 $$sum_(i=1)^c x_(Fi)=1$$
 Material balances:
 $$FZ_(Fi) = V_Fy_(Fi) + L_(F)x_(Fi)$$
+
 $$Where,\ K_{Fi}\  represents\  the\  equilibrium\  coefficient\  of\  component\  i,\ y_{Fi}\  and \ x_{Fi}\  are \ the\  composition\  of\  component\  i \ in\  the\  produced\  vapour\  and\  liquid\  streams.\ 
 Z_{Fi}\  the \ feed\  composition\  of\  component\  i,\ L_F \ and\  V_F \ the\  flow \ rates\  of\  liquid \ and \ vapour \ streams.\  Equation\  13\  can \ be\  extended\  to:\ $$
-$$Fsum_(i=1)^c Z_(Fi)=V_Fsum_(i=1)^c y_(Fi)+L_Fsum_(i=1)^c x_(Fi)$$
+
+$$F\sum_{i=1}^c Z_{Fi}=V_F\sum_{i=1}^c y_{Fi}+L_F\sum_{i=1}^c x_{Fi}$$
 $$F=V_F+L_F$$
-$$x_(Fi)=Z_(Fi)/(L_F/F+V_FK_(Fi)/F)$$
-$$x_(Fi)=Z_(Fi)/((1-V_F/F)+V_FK_(Fi)/F)$$
+$$x_{Fi}=\frac{Z_{Fi}}{\frac{L_F}{F}+V_F\frac{K_{Fi}}{F}}$$
+$$x_{Fi}=\frac{Z_{Fi}}{((1-\frac{V_F}{F})+V_F\frac{K_{Fi}}{F}}$$
 $$x_{Fi}=\frac {Z_{Fi}}{(1-\theta(1-K_{Fi})}\  Where \ \theta=V_F/F$$
 Now, we consider,
 $$f(\theta)=\sum_{i=1}^c \frac{Z_{Fi}}{[1-\theta(1-K_{Fi})]}-1$$
