@@ -57,7 +57,7 @@ $$sum_(i=1)^c x_(Fi)=1$$
 Material balances:
 $$FZ_(Fi) = V_Fy_(Fi) + L_(F)x_(Fi)$$
 
-$$Where,\ K_{Fi}\  represents\  the\  equilibrium\  coefficient\  of\  component\  i,\ y_{Fi}\  and \ x_{Fi}\  are \ the\  composition\  of\  component\  i \ in\  the\  produced\  vapour\  and\  liquid\  streams.\ 
+$$Where,\ K_{Fi}\  represents\  the\  equilibrium\  coefficient\  of\  component\  i,\ y_{Fi}\  and \ x_{Fi}\  are \ the\  composition\  of\  component\  i \ in\  the\  produced\  vapour\  and\  liquid\  streams.\ <br/>
 Z_{Fi}\  the \ feed\  composition\  of\  component\  i,\ L_F \ and\  V_F \ the\  flow \ rates\  of\  liquid \ and \ vapour \ streams.\  Equation\  13\  can \ be\  extended\  to:\ $$
 
 $$F\sum_{i=1}^c Z_{Fi}=V_F\sum_{i=1}^c y_{Fi}+L_F\sum_{i=1}^c x_{Fi}$$
