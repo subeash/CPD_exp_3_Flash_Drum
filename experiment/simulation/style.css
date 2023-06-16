@@ -272,8 +272,8 @@ clip-path: polygon(45% 33%, 76% 31%, 94% 26%, 93% 95%, 65% 100%, 44% 100%, 23% 9
     z-index: 40;
     height: 0%;
     width: 1.2%;
-    background-color: powderblue;
-    opacity: 0.7;
+    background-color: Silver;
+    opacity: 0.4;
 }
 
 #wpipe7{
@@ -296,8 +296,8 @@ clip-path: polygon(45% 33%, 76% 31%, 94% 26%, 93% 95%, 65% 100%, 44% 100%, 23% 9
     z-index: 40;
     width: 0%;
     height: 1.9%;
-    background-color: powderblue;
-    opacity: 0.7;
+    background-color: Silver;
+    opacity: 0.4;
 }
 
 /*tank vapour out*/
@@ -308,8 +308,8 @@ clip-path: polygon(45% 33%, 76% 31%, 94% 26%, 93% 95%, 65% 100%, 44% 100%, 23% 9
     z-index: 40;
     width: 0%;
     height: 1.9%;
-    background-color: powderblue;
-    opacity: 0.7;
+    background-color: Silver;
+    opacity: 0.4;
 }
 
 #wpipe10{
@@ -319,8 +319,8 @@ clip-path: polygon(45% 33%, 76% 31%, 94% 26%, 93% 95%, 65% 100%, 44% 100%, 23% 9
     z-index: 40;
     height: 0%;
     width: 0.9%;
-    background-color: powderblue;
-    opacity: 0.7;
+    background-color: Silver;
+    opacity: 0.4;
 }
 
 #wpipe11{
@@ -330,8 +330,8 @@ clip-path: polygon(45% 33%, 76% 31%, 94% 26%, 93% 95%, 65% 100%, 44% 100%, 23% 9
     z-index: 40;
     height: 0%;
     width: .5%;
-    background-color: powderblue;
-    opacity: 0.7;
+    background-color: Silver;
+    opacity: 0.4;
 }
 
 #wpipe12{
@@ -341,8 +341,8 @@ clip-path: polygon(45% 33%, 76% 31%, 94% 26%, 93% 95%, 65% 100%, 44% 100%, 23% 9
     z-index: 40;
     width: 0%;
     height: .9%;
-    background-color: powderblue;
-    opacity: 0.7;
+    background-color: Silver;
+    opacity: 0.4;
 }
 
 /*tank water supply*/
@@ -449,18 +449,18 @@ clip-path: polygon(45% 33%, 76% 31%, 94% 26%, 93% 95%, 65% 100%, 44% 100%, 23% 9
     z-index: 40;
     width: 0%;
     height: .8%;
-    background-color: powderblue;
-    opacity: 0.7;
+    background-color: Silver;
+    opacity: 0.4;
 }
 #wpipe23{
 	    position: absolute;
     width: .6%;
-    background-color: powderblue;
+    background-color: Silver;
     top: 16.6%;
     left: 63.9%;
     z-index: 40;
     height: 0%;
-    opacity: 0.7;
+    opacity: 0.4;
 }
 /*-----------------------------for vulv button to run program------------------------*/
 

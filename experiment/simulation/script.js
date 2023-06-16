@@ -48,8 +48,6 @@ function uflow(){
 	   
 	    
 	   
-	   
-	   
 	        /* pipe water 19 wpu1flow */
 	   setTimeout(function(){
 		   document.getElementById('wpipe19').classList.add("wpu19flow");
@@ -94,20 +92,15 @@ function uflow(){
 	   },62000);
 	   
 	   
-	   
-	   
-	    /* pipe water 23 wpu1flow */
-	   setTimeout(function(){
-		   document.getElementById('wpipe23').classList.add("wpu23flow");
-	   },48500);
+	  
 	   
 	   setTimeout(function(){
 	       document.getElementById('drop2').classList.add("dflow");
-	  },49000);
+	  },82000);
 	  
 	     setTimeout(function(){
 		   document.getElementById('basin3').classList.add("lbflow");
-	   },49000);
+	   },86000);
 	   
 	   
 	      /* water chiller basin */
@@ -151,37 +144,51 @@ function uflow(){
 	      /* pipe water 6 wpu1flow */
 	    setTimeout(function(){
 		   document.getElementById('wpipe6').classList.add("wpu6flow");
-	   },15500);
+	   },55000);
 	 
 	     /* pipe water 8 Dflow */
 	   setTimeout(function(){
 		   document.getElementById('wpipe8').classList.add("wpu8flow");
-	   },16500);
+	   },58500);
 	   
 	    /* pipe water 9 Dflow */
 	   setTimeout(function(){
 		   document.getElementById('wpipe9').classList.add("wpu9flow");
-	   },18500);
+	   },62000);
 	   
 	       /* pipe water 10 wpu1flow */
 	    setTimeout(function(){
 		   document.getElementById('wpipe10').classList.add("wpu10flow");
-	   },20000);
+	   },66000);
 	   
 	      /* pipe water 11 wpu1flow */
 	    setTimeout(function(){
 		   document.getElementById('wpipe11').classList.add("wpu11flow");
-	   },22000);
+	   },69500);
 	   
 	     /* pipe water 22 wpu1flow */
 	   setTimeout(function(){
 		   document.getElementById('wpipe22').classList.add("wpu22flow");
-	   },24600);
+	   },73500);
 	   
 	       /* pipe water 12 wpu1flow */
 	    setTimeout(function(){
 		   document.getElementById('wpipe12').classList.add("wpu12flow");
-	   },26000);
+	   },78500);
+	   
+	    
+	    /* pipe water 23 wpu1flow */
+	   setTimeout(function(){
+		   document.getElementById('wpipe23').classList.add("wpu23flow");
+	   },78500);
+	   
+	     setTimeout(function(){   
+	 moveUp2();  
+	 },9000);
+	 
+	      setTimeout(function(){   
+	 moveUp3();  
+	 },9000);
 }	
 
 function tankflow(){
@@ -238,9 +245,7 @@ function tankflow(){
 	   },94000);
 	   
 	   /*indicator time out*/
-	    setTimeout(function(){   
-	 moveDown2();  
-	 },89000); 
+	   
 	   
 	 
 	   
@@ -284,11 +289,11 @@ function moveDown() {
 
 function moveUp2() {
   let rectangle = document.getElementById("rectangle2");
-  let position = 62.4;
+  let position = 69;
   let id = setInterval(frame, 50);
   
   function frame() {
-    if (position == 65.4) {
+    if (position == 71) {
       clearInterval(id);
     } else {
       position++;
@@ -299,11 +304,11 @@ function moveUp2() {
 
 function moveDown2() {
   let rectangle = document.getElementById("rectangle2");
-  let position = 65;
+  let position = 71;
   let id = setInterval(frame, 50);
   
   function frame() {
-    if (position == 62) {
+    if (position == 68) {
       clearInterval(id);
     } else {
       position--;
@@ -316,12 +321,12 @@ function moveDown2() {
 /****indicator 3*/
 
 function moveUp3() {
-  let rectangle = document.getElementById("rectangle2");
-  let position = 19.4;
+  let rectangle = document.getElementById("rectangle3");
+  let position = 19;
   let id = setInterval(frame, 50);
   
   function frame() {
-    if (position == 23.4) {
+    if (position == 23) {
       clearInterval(id);
     } else {
       position++;
@@ -331,7 +336,7 @@ function moveUp3() {
 }
 
 function moveDown3() {
-  let rectangle = document.getElementById("rectangle2");
+  let rectangle = document.getElementById("rectangle3");
   let position = 23;
   let id = setInterval(frame, 50);
   
