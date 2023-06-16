@@ -1,21 +1,92 @@
 ## Inroduction 
 
-**Heat**
+**Flash Distillation**
 
-Heat can be defined as the transfer of energy across the boundary of a system due to a temperature difference between the system and its surroundings. Heat should not be confused with internal energy which is essentially all the energy of a system that is associated with its atoms and molecules - when viewed from a reference frame at rest with respect to the object. It's important to understand the fact that internal energy can undergo a change even when there is no transfer of heat. Consider an adiabatic vessel with a movable lid-pulling the lid, in such a manner that the volume of vessel expands, results in cooling and consequent decrease of internal energy even though there was no transfer of heat from surroundings.
+Distillation is a unit operation or a physical separation process of separate more volatile components from a mixture by partial vaporisation of the liquid mixture followed by condensation. The distribution of the components in the two phases is governed by the vapour liquid equilibrium relationship.
+The most elementary form of simple distillation is Flash Distillation, in which a feed mixture is partially vaporized to produce vapour which is enriched with more volatile components and a liquid that is devoid of volatile components. The vapour and liquid streams leaving the drum are in equilibrium. This operation is called equilibrium flash vaporisation or flash distillation.
            
 
-## 1. Modes of Heat Transfer
-Transfer of heat can take place through three different mechanisms
-### 1.1 Conduction
-
-Conduction can be understood as a process in which energy transfer occurs from a more energetic body to a less energetic process primarily due to collisions between them. Conduction takes only when there is a temperature difference between two parts of the conducting medium. Let's explore the dependence of the conduction rate with change in temperature. Consider a thin plate of thickness `Delta x` and cross sectional area A. Let the temperature of thickness at one face be and at the opposite face be . It has been experimentally found that heat flow will take place between the two faces. If the time interval is `Delta T` and the heat flow `Delta Q`, then it has been found that `(Delta Q)/(Delta T)=k(Delta T)/(Delta x)`
- ### 1.2 Convection               
-Unlike conduction, convection involves bulk transport of fluids from one place to another which consequently results in exchange of heat from the hotter to colder substance. In brief, the heat energy transferred due to movement of a heated substance is convection. Land and sea breezes are a good example of the phenomenon of convection. During the night, the land cools faster due to poor conductivity of land. This leads to differential heating of the air above land and water. The air above seas is hotter. Since hot air is lighter, it rises up resulting in cool breezes from the land blowing in above seas and the hot air being transported to land resulting in warm night breezes. The reverse process is repeated during the day. This entire phenomenon is based on convection currents and is an example of natural convection. Natural convection is essentially due to the difference in the densities of the fluids which results in their subsequent motion. When fluids are made to move due to some external forces such as a fan or a blower as the case maybe, then it's called forced convection.
+### VAPOUR-LIQUID EQUILIBRIUM (VLE)
+Separation of a mixture by distillation is based on the equilibrium distribution of the components between the liquid phase and the vapour phase. Knowledge of vapour-liquid equilibrium is therefore essential for understanding the principles of distillation. A phase equilibrium diagram is essential for the relationship between the mole fraction of a component in the vapour and liquid phases. The equilibrium is defined for varying temperatures at constant pressure or varying pressure at constant temperature.
  
-<img src="images/convection.jpg"  style="width:500px;height:400px;"/>
+<img src="images/vapur_liquid.jpg"  style="width:500px;height:400px;"/>
 				
-<p>Figure 1.1 Convection Currents</p>
+Figure.1 is the phase-equilibrium diagram for a binary mixture system where x, y refers to the mole fraction of the more volatile component in the liquid phase and vapour phase respectively. The temperature raised to its boiling point and is plotted with respect to the liquid composition x, then we get the "bubble point curve" and if we plot it again with respect to the vapour composition y then we get the "dew point curve". In the diagram P represents the sub-cooled liquid which is heated at constant pressure to point Q, where the first bubble of vapour appears. The vapour appeared has the composition, represented by point R which is significantly rich with the less volatile component than in the initial state. The heating process is continued beyond point Q where the temperature rises causing the amount of vapour to increase and the amount of liquid to decrease. During this process, compositions of vapour and liquid phases change as indicated by paths RN and QM until the dew point is reached at point N,where the last droplet of liquid disappear. The line TB-M-Q-TA in the figure.1 is the bubble point curve and TB-N-R-TA is the dew point curve.
                            
- ### 1.3 Radiation    
- Radiation heat exchange between two bodies at different temperatures always results in a net transfer of heat energy from the body at a higher temperature to the other at a lower temperature.Heat transfer by radiation is important role in many heating and cooling operation and equipment such as operation of a furnace ,thermal cracking, various types of kilns etc.Radiation heat loss from a process equipment becomes significant when its temperature is considerably different from that of the ambient. Therefore process of radiation is necessary for thermal calculation in a varity of physical situation. Thermal radiation is the emission of electromagnetic waves from all matter that has a temperature greater than absolute zero.Thermal radiation incident on a body tends to increase its temperature .Its depending upon the nature of the material constituting the body and its surface characteristics ,the incident radiation may be absorbed,reflected, or transmitted, partly or fully.
+**RAOULT'S LAW -** Raoult's law describes the vapour liquid equilibrium of ideal solution. For an ideal solution the partial pressure of a component is equal to the product of itsmole fraction in the liquid phase and its vapour pressure at the prevailing conditions. It can be written as
+
+$$P_A** = x_AP_A$$
+
+$$P_B** = x_BP_B$$
+
+<br>where,
+
+$$P_A**, P_B** = Partial \ pressure \ of \ component \ A\  and\  B$$
+
+$$x_A, x_B = Mole\  fraction\  of\  component\  A\  and\  B\  in\  the\  liquid\  phase$$
+
+$$P_A, P_B = Vapour \ pressures\  of \ component\  A\  and\  B\  at\  system\  temperature$$
+
+<br>Also,
+
+$$P_A**= y_AP$$
+
+$$P_B**= y_BP$$
+
+<br>$$Where\ y_A, y_B = Mole\  fraction\  of\  component\  A\  and\  B\  in\  the\  vapour\  phase$$
+
+<br>P = Total pressure</p>
+
+According to Dalton's law the total pressure is equal to the sum of the partial pressures. Therefore,
+
+$$P =P_A**+P_B**$$
+
+$$x_AP_A+x_BP_B$$
+
+The vapour pressure of pure components can be obtained either from charts or the use of equation. Antoine equation given below is widely used for this. This is given below
+
+$$In \ P_i= A_i - B_i// C_i + T$$
+
+$$Where\ A_i, B_i \ and\  C_i \ are\  constant\  for\  component\  i.$$
+
+**RELATIVE VOLATILITY :** Relative volatility is the concentration ratio of A to B in the vapour phase divided by the same ratio in the liquid phase. Relative volatility is usually denoted as α. For binary mixture
+
+α = y/(1-y) / x(1-x)
+
+$$P_A/ P_B\  (Ratio \ of\  vapour \ pressure\  of \ A\  and\  B)$$
+
+α is a dimensionless quantity. When α = 1, the separation would be impossible under the given condition because the composition of the liquid and the vapour phase are the same (azeotrope).When α > 1, separation by distillation becomes progressively easier. <br/>
+
+**DIFFERENT WAYS OF FLASH DISTILLATION :** The separation of a feed mixture in a flash drum can be carried out by two different ways (Luyben, 1990), and they are described as follows
+The temperature of the liquid feed is increased to a certain temperature which lies between the bubble point temperature and the dew point temperature of that feed at a specified constant pressure,
+By lowering the pressure on the feed stream.
+The partial vaporisation of a multicomponent feed mixture is commonly conducted by reducing the pressure on the feed stream rather than by heating the feed at constant pressure. However, the two general methods referred for flash calculation are as follows:
+
+1. Isothermal flash
+2. Adiabatic flash.
+
+### ISOTHERMAL FLASH
+
+The isothermal flash is commonly used in the single stage separation process.The flash temperature TF and pressure P. The total flow rate F and composition(xi) of the feed. The name given as isothermal flash because the temperature of the contents in the flash drum as well as the vapour and liquid streams formed by the flash are the same temperature. The flash temperature may not be equal to the feed temperature prior to its flashing. An isothermal flash process can be mathematically described by the independent equation required to describe by the following equation.
+
+<img src="images/schematic_diagram.jpg"  style="width:500px;height:400px;"/>
+
+### Equilibrium relationship
+$$y_{Fi}=K_{Fi} x_{Fi}\  ( i= 1,2,.....C)$$
+$$sum_(i=1)^c y_(Fi)=1$$
+$$sum_(i=1)^c x_(Fi)=1$$
+Material balances:
+$$FZ_(Fi) = V_Fy_(Fi) + L_(F)x_(Fi)$$
+
+$$Where,\ K_{Fi}\  represents\  the\  equilibrium\  coefficient\  of\  component\  i,\ y_{Fi}\  and \ x_{Fi}\  are \ the\  composition\  of\  component\  i \ in\  the\  produced\  vapour\  and\  liquid\  streams.\ $$<br/>
+
+$$Z_{Fi}\  the \ feed\  composition\  of\  component\  i,\ L_F \ and\  V_F \ the\  flow \ rates\  of\  liquid \ and \ vapour \ streams.\  Equation\  13\  can \ be\  extended\  to:\ $$
+
+$$F\sum_{i=1}^c Z_{Fi}=V_F\sum_{i=1}^c y_{Fi}+L_F\sum_{i=1}^c x_{Fi}$$
+$$F=V_F+L_F$$
+$$x_{Fi}=\frac{Z_{Fi}}{\frac{L_F}{F}+V_F\frac{K_{Fi}}{F}}$$
+$$x_{Fi}=\frac{Z_{Fi}}{((1-\frac{V_F}{F})+V_F\frac{K_{Fi}}{F}}$$
+$$x_{Fi}=\frac {Z_{Fi}}{(1-\theta(1-K_{Fi})}\  Where \ \theta=V_F/F$$
+Now, we consider,
+$$f(\theta)=\sum_{i=1}^c \frac{Z_{Fi}}{[1-\theta(1-K_{Fi})]}-1$$
+Positive value of θ means the vaporisation occurs, whereas zero value indicatesno vaporisation.
